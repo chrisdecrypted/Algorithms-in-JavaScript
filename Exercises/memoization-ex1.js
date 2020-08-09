@@ -30,4 +30,3 @@ console.log('Task 2 calculated value:', memoTimes10(9));	// calculated
 console.log('Task 2 cached value:', memoTimes10(9));	// cached
 
 
-
