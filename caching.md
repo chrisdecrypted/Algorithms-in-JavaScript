@@ -171,5 +171,7 @@ const memoizedTimes10 = memoize(times10);
 // We can also replace arguments with (...args) to allow for multiple values to be passed through.
 ```
 
-With simple functions like `n * 10`, the space-time complexity does not drastically change. Beyond the optimization of **cache vs no cache**, there is little difference in performance in these versions of code. However when more complex functions start being passed is where we are able to see the benefits. 
+With simple functions like `n * 10`, the space-time complexity does not drastically change. Beyond the optimization of **cache vs no cache**, there is little difference in performance in these versions of code. However when more complex (time expensive) functions start being passed is where we are able to see the benefits. 
+
+
 
