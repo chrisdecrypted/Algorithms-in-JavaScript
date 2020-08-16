@@ -2,14 +2,10 @@
 
 These are my notes after participiating in the Frontend Masters course of the same name. 
 
-
-
 ## Intro to Big O, Space/Time Complexity
-
 Big O is just one type of metric for evaluating space-time complexity, but it is widely used in computer science settings. This is a concept that is frequently used to identify candidate programming strength in interview settings. When we talk about space-time complexity, what we are really trying to describe is the **worst-case scenario**.
 
 ### *Examples of Typical Complexity in JS*
-
 These are patterns, and demonstrate a relationship with these code elements. This does not mean that every time you see x,y,z that you will immediately be able to identify the time-space complexity.
 
 #### ***Constant Time : O(n)***
@@ -133,28 +129,3 @@ true
 ```
 
 The current time complexity is quadratic time with 2 loops and a total of 9 "steps" to evaluate for each item.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
